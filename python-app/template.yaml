@@ -42,7 +42,7 @@ spec:
       action: publish:github
       input:
         description: This is ${{ parameters.component_id }}
-        repoUrl: github.com?owner=kobibe&repo=${{parameters.component_id}}
+        repoUrl: github.com?owner=yaelsoft-tibco&repo=${{parameters.component_id}}
         protectDefaultBranch: false
         repoVisibility: public
 
