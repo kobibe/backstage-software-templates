@@ -5,6 +5,7 @@ metadata:
   description: Pyhon app that displays time, named ${{values.app_name}}
   annotations:
     github.com/project-slug: kobibe/${{values.app_name}}
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: development
